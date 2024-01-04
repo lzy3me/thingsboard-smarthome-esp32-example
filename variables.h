@@ -16,7 +16,7 @@ constexpr unsigned int wifi_timeout = 15 * 1000;
 
 // setup mqtt credential
 constexpr char *MQTT_BROKER = "*** YOUR THINGSBOARD SERVER ***";
-constexpr char *SUBSCRIBE_TOPIC = "v1/devices/me/attributes";
+constexpr char *SUBSCRIBE_TOPIC = "v1/devices/me/rpc/request/+";
 constexpr char *PUBLISH_TOPIC = "v1/devices/me/telemetry";
 constexpr char *MQTT_DEVICE = "*** YOUR DEVICE ID ***";
 constexpr char *MQTT_USERNAME = "*** YOUR USERNAME ***";
